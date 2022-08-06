@@ -1,4 +1,17 @@
-@media (max-width: 768px) {
+div.yt {
+  position: relative;
+  padding-bottom: 59%;
+
+}
+div.yt > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 1000px) {
   .video-player {
     width: 100%;
     background: 0 0;
